@@ -69,7 +69,7 @@ span a {
     display: block;
     width: 18px;
     height: 2px;
-    background: var(--text-color);
+    background: var(--background-color);
     position: relative;
     content: "";
     transition: transform 0.25s ease, top 0.25s ease, background 0.25s ease;
