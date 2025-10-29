@@ -84,7 +84,7 @@ span a {
     top: 6px;
 }
 
-
+/* Responsive Navbar */
 
 @media (max-width: 800px) {
     .menu {
@@ -111,17 +111,10 @@ span a {
         justify-content: center;
         width: 90%;
         border-bottom: 1px solid #b6c0c9;
-        color: var(--navbar-text-color);
     }
 
     .menu li a {
         padding: 10px 0;
-        color: var(--navbar-text-color);
-    }
-
-    .menuToggle:checked~.menu {
-        max-height: 100vh;
-        height: 100vh;
     }
 
     .menuToggle:checked~.menu {
