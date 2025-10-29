@@ -31,6 +31,7 @@ span a {
     align-items: center;
     gap: clamp(0.75, 1vw, 1.5rem);
     list-style: none;
+    color: var(--text-color);
 }
 
 .menu a {
@@ -38,12 +39,12 @@ span a {
     padding: 0.5rem 0.75rem;
     font-size: clamp(0.9rem, 0.9vw, 1.05rem);
     font-weight: bold;
-    color: var(--navbar-text-color);
+    color: var(--text-color);
     transition: 0.2s;
 }
 
 .menu a:hover {
-    text-shadow: 0 0 10px var(--navbar-text-color);
+    text-shadow: 0 0 10px var(--text-color);
 }
 
 .menuToggle {
