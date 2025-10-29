@@ -38,7 +38,7 @@ span a {
     padding: 0.5rem 0.75rem;
     font-size: clamp(0.9rem, 0.9vw, 1.05rem);
     font-weight: bold;
-    color: var(--background-color);
+    color: #C1C1C1;
     transition: 0.2s;
 }
 
