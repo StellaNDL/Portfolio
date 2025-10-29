@@ -23,7 +23,7 @@ span {
 
 span a {
     text-decoration: none;
-    color: var(--navbar-text-color);
+    color: var(--text-color);
 }
 
 .menu {
@@ -49,7 +49,7 @@ span a {
 
 .menuToggle {
     display: none;
-    color: var(--navbar-text-color);
+    color: var(--text-color);
 }
  
 .hamburger {
@@ -113,10 +113,12 @@ span a {
         justify-content: center;
         width: 90%;
         border-bottom: 1px solid #b6c0c9;
+        color: var(--text-color);
     }
 
     .menu li a {
         padding: 10px 0;
+        color: var(--text-color);
     }
 
     .menuToggle:checked~.menu {
