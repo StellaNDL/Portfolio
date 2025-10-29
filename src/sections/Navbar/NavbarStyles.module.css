@@ -38,7 +38,7 @@ span a {
     padding: 0.5rem 0.75rem;
     font-size: clamp(0.9rem, 0.9vw, 1.05rem);
     font-weight: bold;
-    color: var(--navbar-text-color);
+    color: blue;
     transition: 0.2s;
 }
 
@@ -115,7 +115,6 @@ span a {
 
     .menu li a {
         padding: 10px 0;
-        color: blue;
     }
 
     .menuToggle:checked~.menu {
