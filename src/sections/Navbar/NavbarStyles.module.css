@@ -3,7 +3,7 @@
     top: 0;
     background: var(--background-color);
     padding: clamp(0.5rem, 1vw + 0.2rem, 1rem) clamp(1rem, 2vw + 0.5rem, 3rem);
-    border-bottom: 1px solid var(--stroke-color);
+    border-bottom: 1px solid var(--stroke);
     backdrop-filter: blur(12px);
     z-index: 100;
 }
@@ -31,7 +31,6 @@ span a {
     align-items: center;
     gap: clamp(0.75, 1vw, 1.5rem);
     list-style: none;
-    color: var(--navbar-text-color);
 }
 
 .menu a {
@@ -49,7 +48,6 @@ span a {
 
 .menuToggle {
     display: none;
-    color: var(--navbar-text-color);
 }
  
 .hamburger {
@@ -69,7 +67,7 @@ span a {
     display: block;
     width: 18px;
     height: 2px;
-    background: var(--background-color);
+    background: #fff;
     position: relative;
     content: "";
     transition: transform 0.25s ease, top 0.25s ease, background 0.25s ease;
@@ -113,12 +111,12 @@ span a {
         justify-content: center;
         width: 90%;
         border-bottom: 1px solid #b6c0c9;
-        color: var(--text-color);
+        color: var(--navbar-text-color);
     }
 
     .menu li a {
         padding: 10px 0;
-        color: var(--text-color);
+        color: var(--navbar-text-color);
     }
 
     .menuToggle:checked~.menu {
