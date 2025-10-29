@@ -113,12 +113,9 @@ span a {
         border-bottom: 1px solid #b6c0c9;
     }
 
-    .menu a {
-        color: var(--navbar-text-color);
-    }
-
     .menu li a {
         padding: 10px 0;
+        color: blue;
     }
 
     .menuToggle:checked~.menu {
