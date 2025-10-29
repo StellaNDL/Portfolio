@@ -3,7 +3,7 @@ import styles from './FooterStyles.module.css'
 function Footer() {
   return (
     <section id="footer" className={styles.container}> 
-        <p>&copy; 2025 Bongeka Ndlakuse.
+        <p>&copy; 2025, Bongeka Ndlakuse.
             <br />
             All rights reserved.
         </p>
